@@ -1,31 +1,30 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Noto Serif TC", serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif TC', serif;
 }
-nav {
-  background-color: #f0e1ab;
+nav{
+    background-color: #F0E1AB;
 }
-nav ul {
-  display: flex;
-  padding-left: 1rem;
-  list-style-type: none;
-  font-size: large;
-  font-weight: bold;
-  float: left;
+nav ul{
+    display: flex;
+    padding-left: 1rem;
+    list-style-type: none;
+    font-size:0.7cm; 
+    font-weight: bold;
+    float: left;
 }
-nav ul li {
-  display: flex;
+nav ul li{
+    display: flex;
 }
 nav ul li a {
-  color: rgb(7, 4, 4);
-  text-decoration: none;
-  padding: 1.7rem 4rem;
-  transition: all 0.25s ease;
-  border-bottom: 6px solid transparent;
+    color:rgb(7, 4, 4);
+    text-decoration: none;
+    padding: 1.7rem 4rem;
+    transition: all 0.25s ease;
 }
 nav ul li a:hover {
-  /* background-color:rgb(223, 223, 223); */
-  border-bottom: 6px solid rgb(13, 145, 42);
+    background-color:rgba(255, 255, 255, 0.5);
 }
+
