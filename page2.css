@@ -39,19 +39,28 @@ color: #000000;
     transform: rotate(180deg);
 }
 .shape-ex2{
-    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #56876C;
+    background-color: transparent;
+    border: 2px solid #56876C;
+    box-sizing: border-box;
+    transition: all .3s linear;
+    display: block;
     vertical-align: middle;
     position: relative;
-    width: 190px;
+    width: 196px;
     height: 96px;
     font-family: Noto Serif SC;
     font-style: normal;
     font-weight: bold;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.16em;
     transition: all .3s linear;
+    font-color: #56876C;
+    border-radius: 30px; 
 }
 .shape-ex2:hover{
     background: #56876C;
