@@ -35,6 +35,16 @@ color: #000000;
 .shape-ex1:hover::after{
     width: 80%;
 }
+.shape-ex2{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transition: all .3s linear;
+}
+.shape-ex2:hover{
+    background: #56876C;
+    border-radius: 30px;
+}
 nav {
   background-color: #f0e1ab;
 }
@@ -53,11 +63,8 @@ nav ul li a {
   color: rgb(7, 4, 4);
   text-decoration: none;
   padding: 1.7rem 4rem;
-  transition: all 0.25s ease;
 }
-nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
+
 
 label {
   width: 20px;
