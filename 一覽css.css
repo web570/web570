@@ -50,3 +50,15 @@ nav ul li a:hover {
     left: 200px;
     z-index: 3;
 }
+#img4{
+    position: absolute;
+    top:500px;
+    right: 600px;
+    z-index: 4;
+}
+#img5{
+    position: absolute;
+    top:720px;
+    left: 370px;
+    z-index: 5;
+}
