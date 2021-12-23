@@ -62,3 +62,7 @@ nav ul li a:hover {
     left: 370px;
     z-index: 5;
 }
+/* .dropdown的hover效果，作用在.dropdown-content上 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
