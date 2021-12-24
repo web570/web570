@@ -16,14 +16,13 @@ nav {
   padding: 19px 0;
   box-sizing: border-box;
   top: 0;
-  padding: 19px 1rem;
+  padding: 19px 0;
   background-color: #f0e1ab;
 }
 nav ul {
   display:  inline-block;
   vertical-align: middle;
   width: calc(100% - 300px);
-  padding-left: 1rem;
   list-style-type: none;
   font-size: 0.7cm;
   font-weight: bold;
@@ -43,17 +42,13 @@ nav ul li a {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
-  background: transparent;
-  padding: 100%;
-  
+  background: transparent;  
 }
-
 
 .shape{
   background-size: contain;
-  padding-top:75%;
   max-width:auto;
-  max-height: 19px;
+  max-height: 16px;
   display: inline-block;
   vertical-align: middle;
   position: relative;
