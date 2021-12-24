@@ -33,7 +33,7 @@ color: #000000;*/
     transform: rotate(180deg);
 }*/
 .shape-ex1:hover::after{
-    background-image: url(./主頁/首頁按鈕(滑鼠碰.png);
+    background: url(./主頁/首頁按鈕(滑鼠碰.png);
     max-width: 100%;
     height: auto;
     /*width: 80%;
@@ -69,18 +69,18 @@ color: #000000;*/
 .shape-ex2:hover{
     max-width: 100%;
     height: auto;
-    background-image: url (./主頁/餐廳一覽按鈕(滑鼠碰.png);
+    background: url (./主頁/餐廳一覽按鈕(滑鼠碰.png);
     /*background: #56876C;
     border-radius: 30px;
     color: #FFF4CF;*/
 }
 .shape-ex3{
-    max-width: 100%;
+  max-width: 100%;
   height: auto;}
 .shape-ex2:hover{
   max-width: 100%;
   height: auto;
-  background-image: url (./主頁/關於我們按鈕(滑鼠碰.png);
+  background: url (./主頁/關於我們按鈕(滑鼠碰.png);
   }
 nav {
   background-color: #f0e1ab;
