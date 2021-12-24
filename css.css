@@ -28,11 +28,8 @@ nav ul {
   
 }
 nav ul li {
-    display: inline-block;
-    position: relative;
-    height: 25px;
-    line-height: 25px;
-    overflow: hidden;
+    justify-content: flex-start;
+    display: flex;
   
 }
 nav ul li a {
