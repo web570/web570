@@ -12,7 +12,7 @@ nav {
   z-index: 999;
   display: block;
   width: 100%;
-  padding: 0;
+  padding: 4px 0;
   box-sizing: border-box;
   top: 0;
   background-color: #f0e1ab;
