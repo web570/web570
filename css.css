@@ -28,9 +28,8 @@ nav ul {
   
 }
 nav ul li {
-    justify-content: flex-start;
     display: flex;
-  
+    justify-content: flex-start;
 }
 nav ul li a {
   color: inherit;
