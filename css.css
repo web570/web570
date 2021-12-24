@@ -6,69 +6,98 @@
   font-family: "Noto Serif TC", serif;
 }
 
-
 nav {
   position: fixed;
   z-index: 999;
-  display: block;
   width: 100%;
-  padding: 19px 0;
-  box-sizing: border-box;
+  padding: 19px;
   top: 0;
   left: 0;
   background-color: #f0e1ab;
 }
 nav ul {
   display: flex;
-  vertical-align: middle;
-  height: 100%;
-  width: calc(100% - 300px);
+  padding-left: 1rem;
   list-style-type: none;
   font-size: 0.7cm;
   font-weight: bold;
   float: left;
-  
 }
 nav ul li {
-    display: flex;
-    justify-content: flex-start;
-    height: 100%;
+    display: inline-block;
+    padding-right: 40px;
+    position: relative;
+    overflow: hidden;
 }
 nav ul li a {
-  color: inherit;
-  vertical-align: baseline;
-  background: transparent;  
+  color: #FFF4CF;
+  text-decoration: none;
+  padding: 1.7rem 4rem;
+  background: transparent; 
 }
 
-#shape{
-  box-sizing: border-box;
-  background-size: contain;
+.shape{
+  font-family: Noto Serif SC;
   max-width:auto;
-  max-height: 20px;
-  display: flex;
   vertical-align: middle;
   position: relative;
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.16em;
+  align-items: center;
+  text-align: center;
+  
 }
-#shape-ex1{
-  background-image: url(./主頁/首頁按鈕.png);
+.shape-ex2 .shape-ex3{
+  width: 320px;
+  height: 100%;
+  display: flex;
+
+  color: #000000;
 }
-#shape-ex2{
-  background-image: url(./主頁/餐廳一覽按鈕.png);
+.shape-ex2 .shape-ex3:after {
+  content: "";
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s linear;
+  border: 0px solid #56876c;
+  transform: rotate(180deg);
 }
-#shape-ex3{
-  background-image: url(./主頁/餐廳一覽按鈕.png);
+.shape-ex2 .shape-3:hover::after {
+  width: 80%;
+  border: 4px solid #56876c;
+  transform: rotate(180deg);
 }
-#shape-ex1:hover{
-    background-image: url(./主頁/關於我們按鈕(滑鼠碰.png);
+.shape-ex1 {
+  cursor: pointer;
+  line-height: 40px;
+  color: #56876c;
+  background-color: transparent;
+  border: 2px solid #56876c;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  display: block;
+  font-family: Noto Serif SC;
+  font-weight: bold;
+  transition: all 0.3s linear;
+  font-color: #56876c;
+  border-radius: 30px;
+}
+.shape-ex1:hover {
+  background: #56876c;
+  border-radius: 30px;
+  color: #fff4cf;
 }
 
-#shape-ex2:hover{
-    background-image: url (./主頁/餐廳一覽按鈕(滑鼠碰.png);
-}
 
-.shape-ex3:hover{
-    background-image: url (./主頁/關於我們按鈕(滑鼠碰.png);
-  }
+
 
 label {
   width: 20px;
