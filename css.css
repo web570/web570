@@ -30,7 +30,7 @@ nav ul li {
     overflow: hidden;
 }
 nav ul li a {
-  color: #FFF4CF;
+  color: inherit;
   text-decoration: none;
   padding: 1.7rem 4rem;
   background: transparent; 
