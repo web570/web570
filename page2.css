@@ -4,13 +4,29 @@
   box-sizing: border-box;
   font-family: "Noto Serif TC", serif;
 }
+.shape-ex1 {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 320px;
+  height: 96px;
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.16em;
+
+  color: #000000;
+}
 .shape-ex1:after {
   content: "";
   width: 0%;
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: all 0.3s;
+  transition: all 0.3s linear;
   border: 0px solid #56876c;
   transform: rotate(180deg);
 }
@@ -20,10 +36,33 @@
   transform: rotate(180deg);
 }
 .shape-ex2 {
-  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  line-height: 40px;
+  color: #56876c;
+  background-color: transparent;
+  border: 2px solid #56876c;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  display: block;
   vertical-align: middle;
   position: relative;
+  width: 196px;
+  height: 96px;
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.16em;
   transition: all 0.3s linear;
+  font-color: #56876c;
+  border-radius: 30px;
+}
+.shape-ex2:hover {
+  background: #56876c;
+  border-radius: 30px;
+  color: #fff4cf;
 }
 .shape-ex2:hover {
   background: #56876c;
