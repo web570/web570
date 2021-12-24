@@ -5,10 +5,7 @@
   box-sizing: border-box;
   font-family: "Noto Serif TC", serif;
 }
-img{
- max-width:auto;
- max-height: 19px;
-}
+
 
 nav {
   width: 100%;
@@ -51,20 +48,28 @@ nav ul li a {
 
 
 .shape{
+max-width:auto;
+max-height: 19px;
 display: inline-block;
 vertical-align: middle;
 position: relative;
 }
 
 .shape-ex1:hover{
+    max-width:auto;
+    max-height: 19px;
     background: url(./主頁/首頁按鈕(滑鼠碰.png);
 }
 
 .shape-ex2:hover{
+    max-width:auto;
+    max-height: 19px;
     background: url (./主頁/餐廳一覽按鈕(滑鼠碰.png);
 }
 
 .shape-ex3:hover{
+    max-width:auto;
+    max-height: 19px;
     background: url (./主頁/關於我們按鈕(滑鼠碰.png);
   }
 
