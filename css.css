@@ -36,7 +36,11 @@ nav ul {
   
 }
 nav ul li {
-  display: flex;
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
   
 }
 nav ul li a {
@@ -47,6 +51,7 @@ nav ul li a {
 
 
 .shape-ex1{
+  background: url(./主頁/首頁按鈕.png);
 /*display: inline-block;
 vertical-align: middle;
 position: relative;
@@ -73,12 +78,13 @@ color: #000000;*/
     transform: rotate(180deg);
 }*/
 .shape-ex1:hover{
-    background-image: url(./主頁/首頁按鈕(滑鼠碰.png);
+    background: url(./主頁/首頁按鈕(滑鼠碰.png);
     /*width: 80%;
     border: 4px solid #56876C;
     transform: rotate(180deg);*/
 }
 .shape-ex2{
+  background: url(./主頁/餐廳一覽按鈕.png);
    /* text-align: center;
     cursor: pointer;
     line-height: 40px;
@@ -109,10 +115,10 @@ color: #000000;*/
     color: #FFF4CF;*/
 }
 .shape-ex3{
-
+    background: url (./主頁/關於我們按鈕.png);
 }
 .shape-ex3:hover{
-  background: url (./主頁/關於我們按鈕(滑鼠碰.png);
+    background: url (./主頁/關於我們按鈕(滑鼠碰.png);
   }
 
 label {
