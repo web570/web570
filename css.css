@@ -18,7 +18,7 @@ nav {
   background-color: #f0e1ab;
 }
 nav ul {
-  display:  inline-block;
+  display: flex;
   vertical-align: middle;
   width: calc(100% - 300px);
   list-style-type: none;
