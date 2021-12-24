@@ -4,6 +4,12 @@
 .sht {
   color: rgb(219, 175, 103);
 }
+.nht {
+  color: rgb(204, 202, 55);
+}
+.eht {
+  color: rgb(77, 204, 55);
+}
 .mbg {
   background-color: #ffffff;
   border-radius: 30px;
@@ -42,6 +48,44 @@
   left: 70px;
   content: "";
 }
+.nbg {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  font-size: 1.5rem;
+}
+.nbg:before {
+  z-index: -1;
+  height: 50%;
+  background-color: rgb(255, 230, 0);
+  padding-left: 10px;
+  position: absolute;
+  display: block;
+  bottom: 50px;
+  left: 70px;
+  content: "";
+}
+.ebg {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+  font-size: 1.5rem;
+}
+.ebg:before {
+  z-index: -1;
+  height: 50%;
+  background-color: rgb(0, 255, 98);
+  padding-left: 10px;
+  position: absolute;
+  display: block;
+  bottom: 50px;
+  left: 70px;
+  content: "";
+}
 .fz {
   font-size: 3.5rem;
   padding-left: 3.5rem;
@@ -56,4 +100,13 @@
 .side {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+.ptsz {
+  width: 100px;
+  height: 100px;
+}
+.fr {
+  float: right;
+  /* margin-right: 1750px; */
+  margin: 5px;
 }
