@@ -15,6 +15,7 @@ nav {
   padding: 4px 0;
   box-sizing: border-box;
   top: 0;
+  left: 0;
   background-color: #f0e1ab;
 }
 nav ul {
