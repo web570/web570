@@ -54,61 +54,14 @@ nav ul li a {
 display: inline-block;
 vertical-align: middle;
 position: relative;
-/*width: 320px;
-height: 96px;
-font-family: Noto Serif SC;
-font-style: normal;
-font-weight: normal;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.16em;
-
-color: #000000;*/
 }
-/*.shape-ex1:after{
-    content: '';
-    width: 0%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: all .3s linear;
-    border: 0px solid #56876C;
-    transform: rotate(180deg);
-}*/
+
 .shape-ex1:hover{
     background: url(./主頁/首頁按鈕(滑鼠碰.png);
-    /*width: 80%;
-    border: 4px solid #56876C;
-    transform: rotate(180deg);*/
 }
-.shape-ex2{
-  /* text-align: center;
-    cursor: pointer;
-    line-height: 40px;
-    color: #56876C;
-    background-color: transparent;
-    border: 2px solid #56876C;
-    box-sizing: border-box;
-    transition: all .3s linear;
 
-    width: 196px;
-    height: 96px;
-    font-family: Noto Serif SC;
-    font-style: normal;
-    font-weight: bold;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.16em;
-    transition: all .3s linear;
-    font-color: #56876C;
-    border-radius: 30px; */
-}
 .shape-ex2:hover{
     background: url (./主頁/餐廳一覽按鈕(滑鼠碰.png);
-    /*background: #56876C;
-    border-radius: 30px;
-    color: #FFF4CF;*/
 }
 
 .shape-ex3:hover{
