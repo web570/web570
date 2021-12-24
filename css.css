@@ -44,9 +44,11 @@ nav ul li {
   
 }
 nav ul li a {
-  color: rgb(7, 4, 4);
-  text-decoration: none;
-  padding: 1.7rem 4rem;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 
