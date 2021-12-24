@@ -50,12 +50,11 @@ nav ul li a {
 }
 
 
-.shape-ex1{
-  background: url(./主頁/首頁按鈕.png);
-/*display: inline-block;
+.shape{
+display: inline-block;
 vertical-align: middle;
 position: relative;
-width: 320px;
+/*width: 320px;
 height: 96px;
 font-family: Noto Serif SC;
 font-style: normal;
@@ -84,8 +83,7 @@ color: #000000;*/
     transform: rotate(180deg);*/
 }
 .shape-ex2{
-  background: url(./主頁/餐廳一覽按鈕.png);
-   /* text-align: center;
+  /* text-align: center;
     cursor: pointer;
     line-height: 40px;
     color: #56876C;
@@ -93,9 +91,7 @@ color: #000000;*/
     border: 2px solid #56876C;
     box-sizing: border-box;
     transition: all .3s linear;
-    display: block;
-    vertical-align: middle;
-    position: relative;
+
     width: 196px;
     height: 96px;
     font-family: Noto Serif SC;
@@ -114,9 +110,7 @@ color: #000000;*/
     border-radius: 30px;
     color: #FFF4CF;*/
 }
-.shape-ex3{
-    background: url (./主頁/關於我們按鈕.png);
-}
+
 .shape-ex3:hover{
     background: url (./主頁/關於我們按鈕(滑鼠碰.png);
   }
