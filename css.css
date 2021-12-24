@@ -25,15 +25,19 @@ nav {
   background-color: #f0e1ab;
 }
 nav ul {
-  display: flex;
+  display:  inline-block;
+  vertical-align: middle;
+  width: calc(100% - 300px);
   padding-left: 1rem;
   list-style-type: none;
   font-size: 0.7cm;
   font-weight: bold;
   float: left;
+  
 }
 nav ul li {
   display: flex;
+  
 }
 nav ul li a {
   color: rgb(7, 4, 4);
