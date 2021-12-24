@@ -58,6 +58,11 @@ nav ul li a {
   height: 100%;
   display: flex;
   color: #000000;
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.16em;
+  color: #000000;
 }
 .shape-ex2 :after {
   content: "";
@@ -83,11 +88,13 @@ nav ul li a {
   box-sizing: border-box;
   transition: all 0.3s linear;
   display: block;
-  font-family: Noto Serif SC;
-  font-weight: bold;
   transition: all 0.3s linear;
   font-color: #56876c;
   border-radius: 30px;
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.16em;
 }
 .shape-ex1:hover {
   background: #56876c;
