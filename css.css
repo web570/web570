@@ -12,7 +12,7 @@ vertical-align: middle;
 position: relative;
 width: 320px;
 height: 96px;
-font-family: Noto Serif SC;
+/*font-family: Noto Serif SC;
 font-style: normal;
 font-weight: normal;
 display: flex;
@@ -20,25 +20,30 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.16em;
 
-color: #000000;
+color: #000000;*/
 }
 .shape-ex1:after{
-    content: '';
+    /*content: '';
     width: 0%;
     position: absolute;
     bottom: 0;
     left: 0;
     transition: all .3s linear;
     border: 0px solid #56876C;
-    transform: rotate(180deg);
+    transform: rotate(180deg);*/
 }
 .shape-ex1:hover::after{
-    width: 80%;
+    background-image: url(首頁按鈕(./主頁/滑鼠碰.png);
+    max-width: 100%;
+    height: auto;
+    /*width: 80%;
     border: 4px solid #56876C;
-    transform: rotate(180deg);
+    transform: rotate(180deg);*/
 }
 .shape-ex2{
-    text-align: center;
+    max-width: 100%;
+    height: auto;
+   /* text-align: center;
     cursor: pointer;
     line-height: 40px;
     color: #56876C;
@@ -59,12 +64,15 @@ color: #000000;
     letter-spacing: 0.16em;
     transition: all .3s linear;
     font-color: #56876C;
-    border-radius: 30px; 
+    border-radius: 30px; */
 }
 .shape-ex2:hover{
-    background: #56876C;
+    max-width: 100%;
+    height: auto;
+    background-image: url(首頁按鈕(./主頁/滑鼠碰.png);
+    /*background: #56876C;
     border-radius: 30px;
-    color: #FFF4CF;
+    color: #FFF4CF;*/
 }
 nav {
   background-color: #f0e1ab;
