@@ -20,6 +20,7 @@ nav {
 nav ul {
   display: flex;
   vertical-align: middle;
+  height: 100%;
   width: calc(100% - 300px);
   list-style-type: none;
   font-size: 0.7cm;
@@ -30,6 +31,7 @@ nav ul {
 nav ul li {
     display: flex;
     justify-content: flex-start;
+    height: 100%;
 }
 nav ul li a {
   color: inherit;
@@ -38,11 +40,11 @@ nav ul li a {
 }
 
 .shape{
+  box-sizing: border-box;
   background-size: contain;
-  width: 100%;
   max-width:auto;
-  max-height: 16px;
-  display: inline-block;
+  max-height: 20px;
+  display: flex;
   vertical-align: middle;
   position: relative;
 }
