@@ -40,7 +40,7 @@ nav ul li a {
   background: transparent;  
 }
 
-.shape{
+#shape{
   box-sizing: border-box;
   background-size: contain;
   max-width:auto;
@@ -49,20 +49,20 @@ nav ul li a {
   vertical-align: middle;
   position: relative;
 }
-.shape-ex1{
+#shape-ex1{
   background-image: url(./主頁/首頁按鈕.png);
 }
-.shape-ex2{
+#shape-ex2{
   background-image: url(./主頁/餐廳一覽按鈕.png);
 }
-.shape-ex3{
+#shape-ex3{
   background-image: url(./主頁/餐廳一覽按鈕.png);
 }
-.shape-ex1:hover{
+#shape-ex1:hover{
     background-image: url(./主頁/關於我們按鈕(滑鼠碰.png);
 }
 
-.shape-ex2:hover{
+#shape-ex2:hover{
     background-image: url (./主頁/餐廳一覽按鈕(滑鼠碰.png);
 }
 
