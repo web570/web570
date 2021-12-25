@@ -125,14 +125,14 @@ nav ul li a {
 }
 #img4{
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 55%;
     z-index: 4;
 }
 #img5{
     position: absolute;
-    top: 120%;
-    left: 20%;
+    top: 130%;
+    left: 25%;
     z-index: 5;
 }
 /* .dropdown的hover效果，作用在.dropdown-content上 */
