@@ -1,4 +1,5 @@
-@media only screen and (max-width: 768px) * {
+/* @media only screen and (max-width: 768px)  */
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -89,8 +90,8 @@ nav ul li a {
 
 img {
   position: absolute;
-  height: auto;
-  max-width: 100%;
+  height: 300px;
+  width: 400px;
   border: 10px solid rgb(255, 255, 255);
   /* padding: 10px; */
 }
