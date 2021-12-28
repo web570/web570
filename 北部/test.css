@@ -1,0 +1,42 @@
+.floatMenu{
+    width:200px; 
+    /* //如果每個區塊的字數較多，請自行調大這裡的數值。 */
+    align-items: center;
+    /* //如果沒有剛好吸附在右邊的話，請自行調整這裡的數值，數字越大越右邊。（想吸附在左邊的話請見附註4） */
+    position:fixed;
+    top:20%; 
+    /* //如果想要更改出現的高度的話，請自行調整這裡的數值，數字越大越下面。 */
+   }
+  
+   .pointer {
+    /* //這段之下是讓效果變柔和的效果，可自行修改「.25」的數值調整速度，若不需要可拿掉XD   */
+    -webkit-transition:all .25s ease-in-out; -moz-transition:all .25s ease-in-out; 
+   -o-transition:all .25s ease-in-out; transition:all .25s ease-in-out;
+    /* //這段之上是讓效果變柔和的效果，可自行修改「.25」的數值調整速度，若不需要可拿掉XD  */
+    
+    background-color:rgb(211, 248, 248); 
+    /* //每個項目的顏色。 */
+    text-indent:0;
+    display:inline-block;
+    font-size: 2.3rem;
+     /* //項目的字體大小，若單位不習慣em可自行改為px。 */
+    font-style:normal;
+    height:40px; 
+    /* //每個項目的高度。 */
+    line-height:40px;
+     /* //行高，請跟項目的高度一樣。 */
+    width:600px; 
+    /* //每個項目的寬度。 */
+    text-decoration:none;
+    text-align:left;
+    margin-bottom:5px;
+     /* //每個項目的間距。 */
+    border-left: #31BBBB 10px solid ; 
+    /* //每個項目前面的那條顏色及寬度，想換色就修改#的內容，改粗細則修改10px這數值。 */
+   }
+  
+   .pointer:hover{
+    border-left: #4b00c4 5px solid; 
+    /* //滑鼠經過時，每個項目前面的那條顏色及寬度；想換色就修改#的內容，改粗細則修改5px這個數值。由於滑鼠經過時會從10px變成5px，所以會產生動態效果，若只想單純換色就將數值改為10px即可。 */
+   }
+   
