@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./page2.css" />
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./北部/test.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
@@ -29,6 +31,40 @@
       });
     
     </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+        $("#btn").hide();
+      $("#btn2").click(function(){
+      $("#btn").slideToggle(200);
+      return false;
+      });
+      $("#btn1").click(function(){
+        $("#btn").hide();
+        return false;
+      });
+    });
+        </script>
+
+<script>
+  $(function(){
+   $('#RN1').click(function(){ $('html,body').animate({scrollTop:$('#RN11').offset().top}, 800); }); //這邊注意，一個是「aboutA」，另一個是「about」，可自行命名。
+   $('#RN2').click(function(){ $('html,body').animate({scrollTop:$('#RN22').offset().top}, 800); }); //這邊注意，一個是「nameA」，另一個是「name」，可自行命名。
+   $('#RN3').click(function(){ $('html,body').animate({scrollTop:$('#RN33').offset().top}, 800); }); //這邊注意，一個是「authorA」，另一個是「author」，可自行命名。
+   $('#RN4').click(function(){ $('html,body').animate({scrollTop:$('#RN44').offset().top}, 800); });
+   $('#RN5').click(function(){ $('html,body').animate({scrollTop:$('#RN55').offset().top}, 800); });
+   $('#RN6').click(function(){ $('html,body').animate({scrollTop:$('#RN66').offset().top}, 800); });
+   $('#RN7').click(function(){ $('html,body').animate({scrollTop:$('#RN77').offset().top}, 800); });
+   $('#RN8').click(function(){ $('html,body').animate({scrollTop:$('#RN88').offset().top}, 800); });
+   $('#RN9').click(function(){ $('html,body').animate({scrollTop:$('#RN99').offset().top}, 800); });
+   $('#RN10').click(function(){ $('html,body').animate({scrollTop:$('#RN1010').offset().top}, 800); });
+   $('#RN11').click(function(){ $('html,body').animate({scrollTop:$('#RN1111').offset().top}, 800); });
+  
+  });
+  </script>
 </head>
 <body>
     <header>
@@ -60,6 +96,7 @@
         <img src="./中部/中部-雲河星空觀景餐廳1.png" />
       </div>
       <ul id=menu>
+        <li><button class="button" type="button" id="btn2" > 點我看一覽 </button></li>
         <li><a class="underline" href="./北部餐廳.html"><div id="n">北部</div></a>
         <li><a class="underline" href="./南部餐廳.html"><div id="s">南部</div></a>
         <li><a class="underline" href="./東部餐廳.html"><div id="e">東部</div></a>
@@ -67,6 +104,21 @@
         </ul>
       <br><br>
       <br><br><br>
+
+
+      <div id="btn" class="floatMenu">
+        <a class="pointer" href="#RN1" id="RN11">卓也小屋</a><!--這邊id要有A，href則不必。-->
+        <a class="pointer" href="#RN2" id="RN22">JYT Cafe</a><!--這邊id要有A，href則不必。-->
+        <a class="pointer" href="#RN3" id="RN33">Stunning Cafe</a><!--這邊id要有A，href則不。必-->
+        <a class="pointer" href="#RN4" id="RN44">澳們打邊爐</a>
+        <a class="pointer" href="#RN5" id="RN55">品渝宴川菜館</a>
+        <a class="pointer" href="#RN6" id="RN66">雲河星空景觀餐廳</a>
+        <a class="pointer" href="#RN7" id="RN77">山中居景觀餐廳</a>
+        <a class="pointer" href="#RN8" id="RN88">別有洞天</a>
+        <a class="pointer" href="#RN9" id="RN99">映古子</a>
+        <a class="pointer" href="#RN10" id="RN1010">竹山竹青庭人文空間</a>
+        <a class="pointer" href="#RN11" id="RN1111">陽台花序</a>
+        </div>
       <h1 class="fz">卓也小屋</h1>
       <div class="side">
       <div class="mbg left">  

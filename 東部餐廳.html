@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./page2.css" />
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./北部/test.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
@@ -29,6 +31,36 @@
       });
     
     </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+    $("#btn").hide();
+  $("#btn2").click(function(){
+  $("#btn").slideToggle(200);
+  return false;
+  });
+  $("#btn1").click(function(){
+    $("#btn").hide();
+    return false;
+  });
+});
+    </script>
+
+<script>
+$(function(){
+$('#RN1').click(function(){ $('html,body').animate({scrollTop:$('#RN11').offset().top}, 800); }); //這邊注意，一個是「aboutA」，另一個是「about」，可自行命名。
+$('#RN2').click(function(){ $('html,body').animate({scrollTop:$('#RN22').offset().top}, 800); }); //這邊注意，一個是「nameA」，另一個是「name」，可自行命名。
+$('#RN3').click(function(){ $('html,body').animate({scrollTop:$('#RN33').offset().top}, 800); }); //這邊注意，一個是「authorA」，另一個是「author」，可自行命名。
+$('#RN4').click(function(){ $('html,body').animate({scrollTop:$('#RN44').offset().top}, 800); });
+$('#RN5').click(function(){ $('html,body').animate({scrollTop:$('#RN55').offset().top}, 800); });
+//  $('#RN6').click(function(){ $('html,body').animate({scrollTop:$('#RN66').offset().top}, 800); });
+//  $('#RN7').click(function(){ $('html,body').animate({scrollTop:$('#RN77').offset().top}, 800); });
+//  $('#RN8').click(function(){ $('html,body').animate({scrollTop:$('#RN88').offset().top}, 800); });
+
+});
+</script>
 </head>
 <body>
     <header>
@@ -51,6 +83,7 @@
       </center>
   
   </div>
+
       <div class="a block">
         <img src="./東部/東部-Mr.Sam-山姆先生咖啡館1.png" />
         <img src="./東部/東部-Mr.Sam-山姆先生咖啡館2.png" />
@@ -62,6 +95,7 @@
         <img src="./東部/東部-都蘭海角咖啡 Dulan Cape Café2.png" />
       </div>
       <ul id=menu>
+        <li><button class="button" type="button" id="btn2" > 點我看一覽 </button></li>
         <li><a class="underline" href="./北部餐廳.html"><div id="n">北部</div></a>
         <li><a class="underline" href="./中部餐廳.html"><div id="m">中部</div></a>
         <li><a class="underline" href="./南部餐廳.html"><div id="s">南部</div></a>
@@ -70,7 +104,18 @@
       <br><br>
       <br>    
       <br><br>
-      <br>    
+      <div id="btn" class="floatMenu">
+        <a class="pointer" href="#RN1" id="RN11">Out to Gather</a><!--這邊id要有A，href則不必。-->
+        <a class="pointer" href="#RN2" id="RN22">In Lab</a><!--這邊id要有A，href則不必。-->
+        <a class="pointer" href="#RN3" id="RN33">陽明實驗山屋 Y.M.Mountain Lab</a><!--這邊id要有A，href則不。必-->
+        <a class="pointer" href="#RN4" id="RN44">Poolpool.242</a>
+        <a class="pointer" href="#RN5" id="RN55">山山手作</a>
+        <!-- <a class="pointer" href="#RN6" id="RN66">山山手作</a>
+        <a class="pointer" href="#RN7" id="RN77">山山手作</a>
+        <a class="pointer" href="#RN8" id="RN88">山山手作</a> -->
+        </div>   
+
+      
       <h1 class="fz">島東譯電所</h1>
       <div class="side">
         <div class="ebg left">  
