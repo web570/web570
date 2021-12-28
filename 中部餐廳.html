@@ -9,11 +9,21 @@
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
       body {
         background-color: rgb(255, 236, 196);
       }
     </style>
+    <script>
+      $(".goTop").click(function (e) {
+        e.preventDefault();
+      $("html,body").animate(
+      {
+        scrollTop: 0,},600);
+      });
+    
+    </script>
 </head>
 <body>
     <header>
@@ -48,6 +58,7 @@
         <li><a href="./北部餐廳.html"><img id="n" src="./一覽/北部一覽按鈕.png" alt=""></a>
         <li><a href="./南部餐廳.html"><img id="s" src="./一覽/南部一覽按鈕.png" alt=""></a>
         <li><a href="./東部餐廳.html"><img id="e" src="./一覽/東部一覽按鈕.png" alt=""></a>
+        <li><a href="#" class="goTop"><img id="up" src="./主頁/釘住)上.png" alt=""></a>
         </ul>
       <br><br>
       <br><br><br>

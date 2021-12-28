@@ -143,4 +143,11 @@
   position: relative;
   border:transparent;
 }
+#up{
+  width: auto;
+  height: 75px;
+  position: relative;
+  border:transparent;
+  right: 0.5rem;
+}
 
