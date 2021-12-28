@@ -9,11 +9,26 @@
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
       body {
         background-color: rgb(255, 236, 196);
       }
+      html, body {
+          scroll-behavior: smooth;
+      }
     </style>
+    <script>
+      
+      $(".goTop").click(function (e) {
+        e.preventDefault();
+      $("html,body").animate(
+      {
+        
+        scrollTop: 0,},600);
+      });
+    
+    </script>
 </head>
 <body>
      <header>
@@ -44,6 +59,12 @@
         <img src="./南部/南部-致日子1.png" />
         <img src="./南部/南部-鈕扣倉庫1.png" />
       </div>
+      <ul id=menu>
+        <li><a class="underline" href="./北部餐廳.html"><div id="n">北部</div></a>
+        <li><a class="underline" href="./中部餐廳.html"><div id="m">中部</div></a>
+        <li><a class="underline" href="./東部餐廳.html"><div id="e">東部</div></a>
+        <li><a href="#" class="goTop"><img id="up" src="./主頁/釘住)上.png" alt=""></a>
+        </ul>
       <br>
       <br>
       <br>
@@ -183,9 +204,9 @@
       <table style="align-items: center;">
 				<tbody>
           <tr>
-				<td><img src="./一覽/中部一覽按鈕.png"></td>
+				<!-- <td><img src="./一覽/中部一覽按鈕.png"></td>
 				<td><img src="./一覽/南部一覽按鈕.png"></td>
-			 	<td><img src="./一覽/東部一覽按鈕.png"></td>
+			 	<td><img src="./一覽/東部一覽按鈕.png"></td> -->
 			 	</tr>
 				</tbody>
       </table>

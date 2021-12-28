@@ -14,12 +14,17 @@
       body {
         background-color: rgb(255, 236, 196);
       }
+      html, body {
+          scroll-behavior: smooth;
+      }
     </style>
     <script>
+     
       $(".goTop").click(function (e) {
         e.preventDefault();
       $("html,body").animate(
       {
+        
         scrollTop: 0,},600);
       });
     
@@ -55,9 +60,9 @@
         <img src="./中部/中部-雲河星空觀景餐廳1.png" />
       </div>
       <ul id=menu>
-        <li><a href="./北部餐廳.html"><img id="n" src="./一覽/北部一覽按鈕.png" alt=""></a>
-        <li><a href="./南部餐廳.html"><img id="s" src="./一覽/南部一覽按鈕.png" alt=""></a>
-        <li><a href="./東部餐廳.html"><img id="e" src="./一覽/東部一覽按鈕.png" alt=""></a>
+        <li><a class="underline" href="./北部餐廳.html"><div id="n">北部</div></a>
+        <li><a class="underline" href="./南部餐廳.html"><div id="s">南部</div></a>
+        <li><a class="underline" href="./東部餐廳.html"><div id="e">東部</div></a>
         <li><a href="#" class="goTop"><img id="up" src="./主頁/釘住)上.png" alt=""></a>
         </ul>
       <br><br>
