@@ -129,7 +129,6 @@
   width: 75px;
   height: 75px;
   position: relative;
-  border: transparent;
   border-radius: 50%;
   background-color: rgb(165, 154, 0);
   text-align: center;
@@ -140,7 +139,6 @@
   width: 75px;
   height: 75px;
   position: relative;
-  border: transparent;
   border-radius: 50%;
   background-color: rgb(164, 66, 230);
   text-align: center;
@@ -151,7 +149,6 @@
   width: 75px;
   height: 75px;
   position: relative;
-  border: transparent;
   border-radius: 50%;
   background-color: rgb(66, 164, 230);
   text-align: center;
@@ -162,7 +159,6 @@
   width: 75px;
   height: 75px;
   position: relative;
-  border: transparent;
   border-radius: 50%;
   background-color: rgb(80, 136, 127);
   text-align: center;
@@ -182,4 +178,51 @@
 .underline {
   text-decoration: none;
   color: #ffffff;
+}
+#fb {
+  width: 80px;
+  height: 80px;
+  border: transparent;
+  z-index: 3;
+  margin-top: -3.5em;
+}
+#ig {
+  width: 80px;
+  height: 80px;
+  border: transparent;
+  z-index: 3;
+}
+#pari {
+  width: auto;
+  height: 80px;
+  border: transparent;
+  z-index: 3;
+  margin-top: -3.5em;
+}
+.r1 {
+  right: 40rem;
+}
+.r2 {
+  right: 55rem;
+}
+.r3 {
+  right: 45rem;
+}
+.r4 {
+  right: 35rem;
+}
+.r5 {
+  right: 30rem;
+}
+.r6 {
+  right: 50rem;
+}
+.r7 {
+  right: 53rem;
+}
+.mg1 {
+  margin-top: -3em;
+}
+.mg2 {
+  margin-top: -3.5em;
 }
