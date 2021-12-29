@@ -323,11 +323,36 @@ height: 130px;
   -moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
-  width: 800px;
-  height: 800px;
-  background-color: rgb(243, 214, 191);
-border: black 3px solid;
-  position:absolute;
+  width: 1200px;
+  height: 600px;
+  background-color: rgba(185, 0, 185, 0.822);
+/* border: black 3px solid; */
+  position:fixed;
   
-  z-index: 1;
+  z-index: 1000000;
+}
+
+#pic {
+  height: 300px;
+  width: 400px;
+  position: relative;
+ border: rgb(235, 219, 250) 0.5px solid;
+ 
+ display:block;
+  
+}
+.pics ul li{
+  display: inline;
+  list-style:none;
+  padding:0; 
+  margin:0;
+ 
+}
+
+.pics img{
+   height: 100%;
+  width: 400px;
+  position: relative;
+  float: left;
+display: block;
 }
