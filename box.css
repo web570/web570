@@ -316,3 +316,12 @@ display: block;
 height: 130px;
 } */
 
+.circle{
+  width: 1000px;
+  height: 800px;
+  /* background-color: rgb(243, 214, 191); */
+/* border: black 3px solid; */
+  position: relative;
+  
+  z-index: 1;
+}
