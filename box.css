@@ -317,11 +317,17 @@ height: 130px;
 } */
 
 .circle{
-  width: 1000px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  width: 800px;
   height: 800px;
-  /* background-color: rgb(243, 214, 191); */
-/* border: black 3px solid; */
-  position: relative;
+  background-color: rgb(243, 214, 191);
+border: black 3px solid;
+  position:absolute;
   
   z-index: 1;
 }
