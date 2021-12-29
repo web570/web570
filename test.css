@@ -13,8 +13,8 @@
     /* align-items: center; */
     /* //如果沒有剛好吸附在右邊的話，請自行調整這裡的數值，數字越大越右邊。（想吸附在左邊的話請見附註4） */
     position:fixed;
-    top:20rem; 
-    right: 35rem;
+    top:8rem; 
+    right: 25rem;
     /* //如果想要更改出現的高度的話，請自行調整這裡的數值，數字越大越下面。 */
     z-index: 1;
    }
