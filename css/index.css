@@ -22,7 +22,7 @@
   height: 40%;
   width: 80%;
   border-radius: 10px;
-  padding: 45px 23px 20px 23px;
+  padding: 23px 23px 23px 23px;
   transition: all 0.5s;
   cursor: default;
   -moz-transition: all 0.5s;
@@ -66,7 +66,7 @@
 }
 .zwjs {
   border-top: 1px solid #d0cddb;
-  line-height: 26px;
+  /* line-height: 26px; */
   padding-top: 5px;
   color: #999;
   font-size: 12px;
@@ -74,8 +74,9 @@
   overflow: hidden;
 }
 .for_btn {
+  margin-left: 23%;
   position: relative;
-  height: 214px;
+  height: 250px;
   overflow: hidden;
 }
 .in_page {
