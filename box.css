@@ -179,7 +179,9 @@
   position: relative;
   text-align: center;
   cursor: pointer;
-  /* z-index: 1; */
+}
+#floatRight{
+  float: right;
 }
 .button span{
   width: 100%;

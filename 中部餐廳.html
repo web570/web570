@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./test.css">
-    <base target="_blank">
+    
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -66,15 +66,53 @@
   
   });
   </script>
+   <script>
+        $("#RN11").click(function(){
+         window.location.hash = "RN6";
+        });
+        $("#RN1010").click(function(){
+         window.location.hash = "RN5";
+        });
+        $("#RN99").click(function(){
+         window.location.hash = "RN4";
+        });
+        $("#RN88").click(function(){
+         window.location.hash = "RN3";
+        });
+        $("#RN77").click(function(){
+         window.location.hash = "RN2";
+        });
+        $("#RN66").click(function(){
+         window.location.hash = "RN1";
+        });
+        $("#RN55").click(function(){
+         window.location.hash = "RN1";
+        });
+        $("#RN44").click(function(){
+         window.location.hash = "RN1";
+        }); 
+        $("#RN33").click(function(){
+         window.location.hash = "RN1";
+        });
+        $("#RN22").click(function(){
+         window.location.hash = "RN1";
+        });
+        $("#RN11").click(function(){
+         window.location.hash = "RN1";
+        });  
+    </script>
 </head>
 <body>
     <header>
         <nav>
       <div style="overflow: hidden">
         <ul>
-          <li><div class="shape-ex1"><a href="./index.html">首頁</a></div></li>
-          <li><div class="shape-ex2"><a href="./餐廳.html">餐廳一覽</a></div</li>
-          <li><div class="shape-ex2"><a href="./參考資料來源.html">參考資料來源</a></div></li>
+          <li><div class="shape-ex1 "><a href="./index.html">首頁</a></div></li>
+          <li><div class="shape-ex2 "><a href="./餐廳.html">餐廳一覽</a></div</li>
+          <li><div class="shape-ex2 "><a href="./參考資料來源.html">參考資料來源</a></div></li>
+        </ul>
+        <ul id="floatRight">
+          <li><button class="button rt" type="button" id="btn2" > 點我看一覽 </button></li>
         </ul>
       </div>
       </nav>
@@ -97,7 +135,7 @@
         <img src="./中部/中部-雲河星空觀景餐廳1.png" />
       </div>
       <ul id=menu>
-        <li><button class="button" type="button" id="btn2" > 點我看一覽 </button></li>
+        <!-- <li><button class="button" type="button" id="btn2" > 點我看一覽 </button></li> -->
         <li><a class="underline" href="./北部餐廳.html"><div id="n">北部</div></a>
         <li><a class="underline" href="./南部餐廳.html"><div id="s">南部</div></a>
         <li><a class="underline" href="./東部餐廳.html"><div id="e">東部</div></a>
@@ -118,10 +156,10 @@
         <a class="pointer" href="#RN8" id="RN88">別有洞天</a>
         <a class="pointer" href="#RN9" id="RN99">映古子</a>
         <a class="pointer" href="#RN10" id="RN1010">竹山竹青庭人文空間</a>
-        <a class="pointer" href="#RN11" id="RN1111">陽台花序</a>
+        <a class="pointer" href="#flower" id="RN1111">陽台花序</a>
         </div>
       <h1 class="fz">卓也小屋</h1>
-      <div class="side">
+      <div class="side" id="RN1">
       <div class="mbg left">  
         <div class="pd">
         <div class="text">
@@ -138,7 +176,7 @@
      </div>
      <br>
      <h1 class="fz">JYT Cafe</h1>
-     <div class="side">
+     <div class="side" id="RN2">
      <div class="mbg left">  
        <div class="pd">
        <div class="text">
@@ -153,7 +191,7 @@
     </div>
     <br>
       <h1 class="fz">Stunning Cafe</h1>
-      <div class="side">
+      <div class="side" id="RN3">
       <div class="mbg left">  
         <div class="pd">
         <div class="text">
@@ -171,7 +209,7 @@
      <br>
      <!-- <a id="go4"></a> -->
      <h1 class="fz">澳們打邊爐</h1>
-      <div class="side">
+      <div class="side" id="RN4">
       <div class="mbg left">  
         <div class="pd">
         <div class="text">
@@ -188,7 +226,7 @@
      </div>
      <br>
       <h1 class="fz">品渝宴川菜館</h1>
-      <div class="side">
+      <div class="side"  id="RN5">
       <div class="mbg left">  
         <div class="pd">
         <div class="text">
@@ -205,7 +243,7 @@
      </div>
      <br>
       <h1 class="fz">雲河星空景觀餐廳</h1>
-      <div class="side">
+      <div class="side"  id="RN6">
       <div class="mbg left">  
         <div class="pd">
         <div class="text">
@@ -221,7 +259,7 @@
      </div>
      <br>
       <h1 class="fz">山中居景觀餐廳</h1>
-      <div class="side">
+      <div class="side" id="RN7">
       <div class="mbg left">  
         <div class="pd">
         <div class="text">
@@ -238,7 +276,7 @@
      </div>
      <br>
      <h1 class="fz">別有洞天</h1>
-     <div class="side">
+     <div class="side" id="RN8">
      <div class="mbg left">  
        <div class="pd">
        <div class="text">
@@ -255,7 +293,7 @@
     </div>
     <br>
      <h1 class="fz">映古子</h1>
-     <div class="side">
+     <div class="side" id="RN9">
      <div class="mbg left">  
        <div class="pd">
        <div class="text">
@@ -272,7 +310,7 @@
     </div>
     <br>
      <h1 class="fz">竹山竹青庭人文空間</h1>
-     <div class="side">
+     <div class="side" id="RN10">
      <div class="mbg left">  
        <div class="pd">
        <div class="text">
@@ -289,7 +327,7 @@
     </div>
     <br>
      <h1 class="fz">陽台花序</h1>
-     <div class="side">
+     <div class="side" id="flower">
      <div class="mbg left">  
        <div class="pd">
        <div class="text">
