@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./test.css">
-
+<link rel="stylesheet" href="./picbox.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    
@@ -52,18 +52,62 @@
     </script>
 
 <script>
-  $(document).ready(function(){
-  $("#btno").hide();
-$("#btno2").click(function(){
-$("#btno").slideToggle(200);
-return false;
-});
-$("#btno1").click(function(){
-  $("#btno").hide();
-  return false;
-});
-});
-  </script>
+  $(document).ready(function () {
+    $("#btno").hide();
+    $("#btno2").click(function () {
+      $("#btno").slideToggle(200);
+      return false;
+    });
+    $("#btno1").click(function () {
+      $("#btno").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnp").hide();
+    $("#btnp2").click(function () {
+      $("#btnp").slideToggle(200);
+      return false;
+    });
+    $("#btnp1").click(function () {
+      $("#btnp").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnr").hide();
+    $("#btnr2").click(function () {
+      $("#btnr").slideToggle(200);
+      return false;
+    });
+    $("#btnr1").click(function () {
+      $("#btnr").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnq").hide();
+    $("#btnq2").click(function () {
+      $("#btnq").slideToggle(200);
+      return false;
+    });
+    $("#btnq1").click(function () {
+      $("#btnq").hide();
+      return false;
+    });
+  });
+</script>
+
+
 
 <script>
 $(function(){
@@ -71,10 +115,6 @@ $('#RN1').click(function(){ $('html,body').animate({scrollTop:$('#RN11').offset(
 $('#RN2').click(function(){ $('html,body').animate({scrollTop:$('#RN22').offset().top}, 800); }); //這邊注意，一個是「nameA」，另一個是「name」，可自行命名。
 $('#RN3').click(function(){ $('html,body').animate({scrollTop:$('#RN33').offset().top}, 800); }); //這邊注意，一個是「authorA」，另一個是「author」，可自行命名。
 $('#RN4').click(function(){ $('html,body').animate({scrollTop:$('#RN44').offset().top}, 800); });
-// $('#RN5').click(function(){ $('html,body').animate({scrollTop:$('#RN55').offset().top}, 800); });
-//  $('#RN6').click(function(){ $('html,body').animate({scrollTop:$('#RN66').offset().top}, 800); });
-//  $('#RN7').click(function(){ $('html,body').animate({scrollTop:$('#RN77').offset().top}, 800); });
-//  $('#RN8').click(function(){ $('html,body').animate({scrollTop:$('#RN88').offset().top}, 800); });
 
 });
 </script>
@@ -162,76 +202,117 @@ $('#RN4').click(function(){ $('html,body').animate({scrollTop:$('#RN44').offset(
        <p>地址 : 花蓮縣花蓮市福建街436號</p>
       <!-- <p>FB:<a href="https://m.facebook.com/decryptionroom/?business_id=129131562612324&fref=mentions">https://m.facebook.com/decryptionroom/?business_id=129131562612324&fref=mentions</a></p> -->
       <p><a target="_blank" href="https://m.facebook.com/decryptionroom/?business_id=129131562612324&fref=mentions"><img id="ig" class="r2 mg1" src="./FB.png" alt="FB.png"></a></p>
-      <p style="color: blueviolet;"><a id="btno2"><img id="photo" class="r3 mg1"  src="./照片按鈕.png" alt="點我查看照片"></a></p>
+      <p style="color: blueviolet;"><a id="btno2">點我看餐廳照片</a></p>
     </div>
   </div>
   </div> 
  </div>
 
  <div id="btno" class="circle">
+  <div class="container">
+    <img class="pic " id="pic1" src="./東部/東部-島東譯電所1.png">
+    <img class="pic " id="pic2" src="./東部/東部-島東譯電所2.png">
+    <img class="pic " id="pic3" src="./東部/東部-島東譯電所3.png">
+    <img class="pic " id="pic4" src="./東部/東部-島東譯電所4.png">
+    <img class="pic " id="pic5" src="./東部/東部-島東譯電所5.png">
+    <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btno1"> X </a></h1>
+  </div>
 
-<ul class="pics"> 
-  <li><img id="pic" class="pics" src="./東部/東部-島東譯電所1.png" alt="1"  ></li>
-  <li><img id="pic" class="pics" src="./東部/東部-島東譯電所2.png" alt="2" > </li>
-  <li><img id="pic" class="pics" src="./東部/東部-島東譯電所3.png" alt="3" ></li>
-  <li><img id="pic" class="pics" src="./東部/東部-島東譯電所4.png" alt="4" ></li>
-  <li><img id="pic" class="pics" src="./東部/東部-島東譯電所5.png" alt="5" ></li>
-  <li><h2 style="color: rgb(255, 255, 255);"><a id="btno1">  關閉預覽</a></h2></li>
-</ul>
 </div>
  <br>
  
-      <h1 class="fz">Mr.Sam-山姆先生咖啡館</h1>
-      <div class="side" id="e2">
-        <div class="ebg left">  
-          <div class="pd">
-          <div class="text" >
-      <p class="eht">#魔界小屋 #歐式 #飲品 #童話 #霍爾移動城堡 #冰淇淋 #電影</p>
-      <p>營業時間: ㊀-㊐ 11:00–17:00 ㊃ 休</p>
-      <p>地址: 花蓮縣壽豐鄉樹湖20號</p>
-      <p>電話: 038656518</p>
-      
-      <!-- <p>FB:<a href="https://www.facebook.com/mr.sam970/">https://www.facebook.com/mr.sam970/</a></p> -->
-      <p><a target="_blank" href="https://www.facebook.com/mr.sam970/"><img id="fb" class="r2" src="./FB.png" alt="FB.png"></a></p>
+     
+  <h1 class="fz">Mr.Sam-山姆先生咖啡館</h1>
+  <div class="side">
+    <div class="ebg left">
+      <div class="pd">
+        <div class="text">
+          <p class="eht">#魔界小屋 #歐式 #飲品 #童話 #霍爾移動城堡 #冰淇淋 #電影</p>
+          <p>營業時間: ㊀-㊐ 11:00–17:00 ㊃ 休</p>
+          <p>地址: 花蓮縣壽豐鄉樹湖20號</p>
+          <p>電話: 038656518</p>
+
+          <!-- <p>FB:<a href="https://www.facebook.com/mr.sam970/">https://www.facebook.com/mr.sam970/</a></p> -->
+          <p><a target="_blank" href="https://www.facebook.com/mr.sam970/"><img id="fb" class="r2" src="./FB.png"
+                alt="FB.png"></a></p>
+          <p style="color: blueviolet;"><a id="btnp2">點我看餐廳照片</a></p>
+
+        </div>
       </div>
-      </div>
-      </div> 
-     </div>
-     <br>
-      <h1 class="fz">都蘭海角咖啡 Dulan Cape Café</h1>
-      <div class="side">
-        <div class="ebg left">  
-          <div class="pd" >
-          <div class="text" id="e3">
-      <p class="eht">＃游泳池 ＃民宿 ＃溜滑梯 ＃露營 ＃帆船 ＃衝浪 ＃獨木舟 ＃風帆 ＃異國美食＃沙坑大草原 ＃婚禮 ＃西班牙菜</p>
-      <p>營業時間: ㊀-㊐ 10:00–17:30</p>
-      <p>地址：台東縣東河鄉都蘭村舊部路47鄰10-14號</p>
-      <p>電話:0903262923</p>
-      
-      <!-- <p>FB:<a href="https://www.facebook.com/capeparadisedulan/">https://www.facebook.com/capeparadisedulan/</a></p> -->
-      <p><a target="_blank" href="https://www.facebook.com/capeparadisedulan/"><img id="fb" class="r2" src="./FB.png" alt="FB.png"></a></p>
     </div>
   </div>
-  </div> 
- </div>
- <br>
-      <h1 class="fz">悟饕池上便當文化故事館</h1>
-      <div class="side">
-        <div class="ebg left">  
-          <div class="pd" >
-          <div class="text" id="e4">
-      <p class="eht">#日式木造房舍 #便當 #火車 #文化 #復古 #懷舊</p>
-      <p>營業時間: ㊀-㊐ 08:00–20:00</p>
-      <p>地址: 台東縣池上鄉忠孝路259號</p>
-      <p>電話:089862326</p>
-      
-      <!-- <p>官網:<a href="https://www.wu-tau.com/storys_intro.php">https://www.wu-tau.com/storys_intro.php</a></p> -->
-      <p><a target="_blank" href="https://www.wu-tau.com/storys_intro.php"><img id="fb" class="r2" src="./悟.png" alt="官網.png"></a></p>
+
+  <div id="btnp" class="circle">
+    <div class="container">
+      <img class="pic " id="pic6" src="./東部/東部-Mr.Sam-山姆先生咖啡館1.png">
+      <img class="pic " id="pic7" src="./東部/東部-Mr.Sam-山姆先生咖啡館2.png">
+      <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnp1"> X </a></h1>
     </div>
   </div>
-  </div> 
- </div>
- <br><br>
+  <br>
+
+
+  <h1 class="fz">都蘭海角咖啡 Dulan Cape Café</h1>
+  <div class="side">
+    <div class="ebg left">
+      <div class="pd">
+        <div class="text">
+          <p class="eht">＃游泳池 ＃民宿 ＃溜滑梯 ＃露營 ＃帆船 ＃衝浪 ＃獨木舟 ＃風帆 ＃異國美食＃沙坑大草原 ＃婚禮 ＃西班牙菜</p>
+          <p>營業時間: ㊀-㊐ 10:00–17:30</p>
+          <p>地址：台東縣東河鄉都蘭村舊部路47鄰10-14號</p>
+          <p>電話:0903262923</p>
+
+          <!-- <p>FB:<a href="https://www.facebook.com/capeparadisedulan/">https://www.facebook.com/capeparadisedulan/</a></p> -->
+          <p><a target="_blank" href="https://www.facebook.com/capeparadisedulan/"><img id="fb" class="r2"
+                src="./FB.png" alt="FB.png"></a></p>
+          <p style="color: blueviolet;"><a id="btnr2">點我看餐廳照片</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="btnr" class="circle">
+    <div class="container">
+      <img class="pic " id="pic1" src="./東部/東部-都蘭海角咖啡 Dulan Cape Café1.png">
+      <img class="pic " id="pic2" src="./東部/東部-都蘭海角咖啡 Dulan Cape Café2.png">
+      <img class="pic " id="pic3" src="./東部//東部-都蘭海角咖啡 Dulan Cape Café3.png">
+      <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnr1"> X </a></h1>
+    </div>
+  </div>
+  <br>
+
+  <br>
+  <h1 class="fz">悟饕池上便當文化故事館</h1>
+  <div class="side">
+    <div class="ebg left">
+      <div class="pd">
+        <div class="text">
+          <p class="eht">#日式木造房舍 #便當 #火車 #文化 #復古 #懷舊</p>
+          <p>營業時間: ㊀-㊐ 08:00–20:00</p>
+          <p>地址: 台東縣池上鄉忠孝路259號</p>
+          <p>電話:089862326</p>
+
+          <!-- <p>官網:<a href="https://www.wu-tau.com/storys_intro.php">https://www.wu-tau.com/storys_intro.php</a></p> -->
+          <p><a target="_blank" href="https://www.wu-tau.com/storys_intro.php"><img id="fb" class="r2" src="./悟.png"
+                alt="官網.png"></a></p>
+
+          <p style="color: blueviolet;"><a id="btnq2">點我看餐廳照片</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="btnq" class="circle">
+    <div class="container">
+      <img class="pic " id="pic1" src="./東部/東部-悟饕池上便當文化故事館1.png">
+      <img class="pic " id="pic2" src="./東部/東部-悟饕池上便當文化故事館2.png">
+      <img class="pic " id="pic3" src="./東部//東部-悟饕池上便當文化故事館3.png">
+      <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnq1"> X </a></h1>
+    </div>
+  </div>
+
+  <br><br>
+
     
     </body>
 </html>
