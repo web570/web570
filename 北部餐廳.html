@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./box.css">
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" href="./picbox.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
@@ -49,16 +50,110 @@
         </script>
 
 <script>
+  $(document).ready(function () {
+    $("#btno").hide();
+    $("#btno2").click(function () {
+      $("#btno").slideToggle(200);
+      return false;
+    });
+    $("#btno1").click(function () {
+      $("#btno").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnp").hide();
+    $("#btnp2").click(function () {
+      $("#btnp").slideToggle(200);
+      return false;
+    });
+    $("#btnp1").click(function () {
+      $("#btnp").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btna").hide();
+    $("#btna2").click(function () {
+      $("#btna").slideToggle(200);
+      return false;
+    });
+    $("#btna1").click(function () {
+      $("#btna").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnr").hide();
+    $("#btnr2").click(function () {
+      $("#btnr").slideToggle(200);
+      return false;
+    });
+    $("#btnr1").click(function () {
+      $("#btnr").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnq").hide();
+    $("#btnq2").click(function () {
+      $("#btnq").slideToggle(200);
+      return false;
+    });
+    $("#btnq1").click(function () {
+      $("#btnq").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnb").hide();
+    $("#btnb2").click(function () {
+      $("#btnb").slideToggle(200);
+      return false;
+    });
+    $("#btnb1").click(function () {
+      $("#btnb").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#btnc").hide();
+    $("#btnc2").click(function () {
+      $("#btnc").slideToggle(200);
+      return false;
+    });
+    $("#btnc1").click(function () {
+      $("#btnc").hide();
+      return false;
+    });
+  });
+</script>
+
+<script>
   $(function(){
    $('#RN1').click(function(){ $('html,body').animate({scrollTop:$('#RN11').offset().top}, 800); }); //這邊注意，一個是「aboutA」，另一個是「about」，可自行命名。
    $('#RN2').click(function(){ $('html,body').animate({scrollTop:$('#RN22').offset().top}, 800); }); //這邊注意，一個是「nameA」，另一個是「name」，可自行命名。
    $('#RN3').click(function(){ $('html,body').animate({scrollTop:$('#RN33').offset().top}, 800); }); //這邊注意，一個是「authorA」，另一個是「author」，可自行命名。
    $('#RN4').click(function(){ $('html,body').animate({scrollTop:$('#RN44').offset().top}, 800); });
    $('#RN5').click(function(){ $('html,body').animate({scrollTop:$('#RN55').offset().top}, 800); });
-  //  $('#RN6').click(function(){ $('html,body').animate({scrollTop:$('#RN66').offset().top}, 800); });
-  //  $('#RN7').click(function(){ $('html,body').animate({scrollTop:$('#RN77').offset().top}, 800); });
-  //  $('#RN8').click(function(){ $('html,body').animate({scrollTop:$('#RN88').offset().top}, 800); });
-  
   });
   </script>
 <script>
@@ -135,9 +230,8 @@
         <a class="pointer" href="#n3" id="3">陽明實驗山屋 Y.M.Mountain Lab</a><!--這邊id要有A，href則不。必-->
         <a class="pointer" href="#n4" id="4">Poolpool.242</a>
         <a class="pointer" href="#n5" id="5">山山手作</a>
-        <!-- <a class="pointer" href="#RN6" id="RN66">山山手作</a>
-        <a class="pointer" href="#RN7" id="RN77">山山手作</a>
-        <a class="pointer" href="#RN8" id="RN88">山山手作</a> -->
+        <a class="pointer" href="#n4" id="4">賣捌所</a>
+        <a class="pointer" href="#n5" id="5">開始：器皿烘焙室</a>
         </div>
 
 
@@ -153,10 +247,24 @@
         <p>地址：台北市四維路44巷5號 (捷運大安站6號出站後，步行550公尺）</p>
         <!-- <p>IG:<a href="https://www.instagram.com/outtogather/">https://www.instagram.com/outtogather/</a></p> -->  
         <p><a target="_blank" href="https://www.instagram.com/outtogather/"><img id="ig" class="r1 mg1" src="./IG.png" alt="IG.png"></a></p> 
+        <p style="color: blueviolet;"><a id="btno2">點我看餐廳照片</a></p>
       </div>
       </div>
     </div> 
    </div>
+
+   <div id="btno" class="circle">
+    <div class="container">
+      <img class="pic " id="pic7" src="./北部/北部-Out to Gather1.jpg">
+      <img class="pic " id="pic8" src="./北部/北部-Out to Gather2.jpg">
+      <img class="pic " id="pic9" src="./北部/北部-Out to Gather3.jpg.png">
+      <img class="pic " id="pic10" src="./北部/北部-Out to Gather4.png">
+      <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btno1"> X </a></h1>
+    </div>
+
+  </div>
+
+
    <br>
         <h1 class="fz">In Lab</h1>
         <div class="side">
@@ -167,10 +275,21 @@
         <p>營業時間：㊀-㊄ 11:30-21:00 ㊅ ㊐ 11:00-21:00</p>
         <p>地址：台北市松山區復興北路81巷20號</p>
         <p>電話： 02 2779 0062</p>
+        <p style="color: blueviolet;"><a id="btnp2">點我看餐廳照片</a></p>
       </div>
     </div>
   </div> 
  </div>
+
+ <div id="btnp" class="circle">
+  <div class="container">
+    <img class="pic " id="pic7" src="./北部/北部-In Lab1.png">
+      <img class="pic " id="pic8" src="./北部/北部-In Lab2.png">
+      <img class="pic " id="pic9" src="./北部/北部-In Lab3.png">
+      <img class="pic " id="pic10" src="./北部/北部-In Lab4.png">
+    <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnp1"> X </a></h1>
+  </div>
+</div>
  <br>
         <h1 class="fz">陽明實驗山屋 Y.M. Mountain Lab</h1>
         <div class="side" id="n3">
@@ -187,11 +306,22 @@
           <p>IG: <a href="https://www.instagram.com/y.m.mountain_lab/">https://www.instagram.com/y.m.mountain_lab/</a></p> -->
         <p><a target="_blank" href="https://www.instagram.com/outtogather/"><img id="fb" class="r1" src="./FB.png" alt="FB.png"></a></p> 
        <p><a target="_blank" href="https://www.facebook.com/ingoods"><img id="ig" class="r4 mg2" src="./IG.png" alt="IG.png"></a></p> 
+       <p style="color: blueviolet;"><a id="btnr2">點我看餐廳照片</a></p>
       </div>
       </div>
     </div> 
    </div>
    <br>
+   <div id="btnr" class="circle">
+    <div class="container">
+      <img class="pic " id="pic7" src="./北部/北部-陽明實驗山屋 Y.M. Mountain Lab1.jpg">
+      <img class="pic " id="pic8" src="./北部/北部-陽明實驗山屋 Y.M. Mountain Lab2.jpg">
+      <img class="pic " id="pic9" src="./北部/北部-陽明實驗山屋 Y.M. Mountain Lab3.png">
+      <img class="pic " id="pic10" src="./北部/北部-陽明實驗山屋 Y.M. Mountain Lab4.png">
+      <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnr1"> X </a></h1>
+    </div>
+  </div>
+   
   
           <h1 class="fz">Poolpool.242 </h1>
           <div class="side" id="n4">
@@ -210,10 +340,21 @@
             <!-- <p>FB: <a href="https://www.facebook.com/poolpool.242/">https://www.facebook.com/poolpool.242/</a></p>
           <p>IG: <a href="https://www.instagram.com/poolpool.242/">https://www.instagram.com/poolpool.242/</a></p> -->
           <p><a target="_blank" href="https://www.facebook.com/poolpool.242/"><img id="fb" class="r1" src="./FB.png" alt="FB.png"></a></p> 
-          <p><a target="_blank" href="https://www.instagram.com/poolpool.242/"><img id="ig" class="r4 mg2" src="./IG.png" alt="IG.png"></a></p> </div>
-      </div>
+          <p><a target="_blank" href="https://www.instagram.com/poolpool.242/"><img id="ig" class="r4 mg2" src="./IG.png" alt="IG.png"></a></p> 
+         <p style="color: blueviolet;"><a id="btnq2">點我看餐廳照片</a></p>
+        </div></div>
+         
     </div> 
    </div>
+   <div id="btnq" class="circle">
+    <div class="container">
+      <img class="pic " id="pic7" src="./北部/北部-Poolpool.242 1.png">
+      <img class="pic " id="pic8" src="./北部/北部-Poolpool.242 2.png">
+      <img class="pic " id="pic9" src="./北部/北部-Poolpool.242 3.png">
+      <img class="pic " id="pic10" src="./北部/北部-Poolpool.242 4.png">
+      <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnq1"> X </a></h1>
+    </div>
+  </div>
    <br>
           <h1 class="fz">山山手作</h1>
           <div class="side" id="n5">
@@ -228,10 +369,72 @@
             <p>電話：02 2626 9553</p>
             <!-- <p>FB: <a href="https://www.facebook.com/33goodeat/">https://www.facebook.com/poolpool.242/</a></p> -->
             <p><a target="_blank" href="https://www.facebook.com/33goodeat/"><img id="fb" class="r1" src="./FB.png" alt="FB.png"></a></p> 
+            <p style="color: blueviolet;"><a id="btna2">點我看餐廳照片</a></p>
           </div>
         </div>
       </div> 
      </div>
+     <div id="btna" class="circle">
+      <div class="container">
+        <img class="pic " id="pic1" src="./北部/北部-山山手作1.png">
+        <img class="pic " id="pic2" src="./北部/北部-山山手作2.png">
+        <img class="pic " id="pic3" src="./北部/北部-山山手作3.png">
+        <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btna1"> X </a></h1>
+      </div>
+    </div>
+
+    <br>
+          <h1 class="fz">賣捌所</h1>
+          <div class="side" id="n5">
+            <div class="nbg left">  
+              <div class="pd">
+              <div class="text">
+          <p class="nht">＃日據時代老屋改造 ＃文青咖啡館 ＃文創商品 ＃藝文表演空間 ＃木造老屋 ＃日式廊道 ＃塌塌米坐式用餐區 ＃設有友善親子區</p>
+            <p>營業時間： ㊀-㊄ 08:00-11:59、13:00-16:00 ㊅ ㊐ 休</p>
+            <p>地址 : 宜蘭市康樂路38號</p>
+            <p>電話： 03 928 0918</p>
+            <!-- <p>FB: <a href="https://www.facebook.com/33goodeat/">https://www.facebook.com/poolpool.242/</a></p> -->
+            <p><a target="_blank" href="https://www.facebook.com/UriBistro/"><img id="fb" class="r1" src="./FB.png" alt="FB.png"></a></p> 
+            <p style="color: blueviolet;"><a id="btnb2">點我看餐廳照片</a></p>
+          </div>
+        </div>
+      </div> 
+     </div>
+     <div id="btnb" class="circle">
+      <div class="container">
+        <img class="pic " id="pic1" src="./北部/北部-賣捌所1.png">
+        <img class="pic " id="pic2" src="./北部/北部-賣捌所2.png">
+        <img class="pic " id="pic3" src="./北部/北部-賣捌所3.png">
+        <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnb1"> X </a></h1>
+      </div>
+    </div>
+
+    <br>
+          <h1 class="fz">開始：器皿烘焙室</h1>
+          <div class="side" id="n5">
+            <div class="nbg left">  
+              <div class="pd">
+              <div class="text">
+          <p class="nht">＃器皿烘焙室 ＃風格發酵室 ＃玩陶工作室 ＃陶藝課 ＃陶藝品販售 ＃藝術 ＃文藝 ＃手作DIY</p>
+            <p>營業時間： ㊀ ㊄-㊐ 12:00-18:00 ㊁-㊃ 休</p>
+            <p>地址 : 宜蘭縣宜蘭市環河東路93號</p>
+            <p>電話： 03 931 2558</p>
+            <!-- <p>FB: <a href="https://www.facebook.com/33goodeat/">https://www.facebook.com/poolpool.242/</a></p> -->
+            <p><a target="_blank" href="https://www.facebook.com/toyilan/"><img id="fb" class="r1" src="./FB.png" alt="FB.png"></a></p> 
+            <p style="color: blueviolet;"><a id="btnc2">點我看餐廳照片</a></p>
+          </div>
+        </div>
+      </div> 
+     </div>
+     <div id="btnc" class="circle">
+      <div class="container">
+        <img class="pic " id="pic1" src="./北部/北部-開始：器皿烘焙室1.png">
+        <img class="pic " id="pic2" src="./北部/北部-開始：器皿烘焙室2.png">
+        <img class="pic " id="pic3" src="./北部/北部-開始：器皿烘焙室3.png">
+        <h1 style="color: rgb(255, 255, 255); position: absolute; top: 0.7rem; right: 1.5rem;"><a id="btnc1"> X </a></h1>
+      </div>
+    </div>
+
      <br><br>
 </body>
 </html>
