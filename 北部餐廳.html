@@ -61,7 +61,24 @@
   
   });
   </script>
-
+<script>
+  
+  $("#5").click(function(){
+   window.location.hash = "n5";
+  });
+  $("#4").click(function(){
+   window.location.hash = "n4";
+  }); 
+  $("#3").click(function(){
+   window.location.hash = "n3";
+  });
+  $("#2").click(function(){
+   window.location.hash = "n2";
+  });
+  $("#1").click(function(){
+   window.location.hash = "n1";
+  });  
+</script>
 
 </head>
 <body>
@@ -74,7 +91,11 @@
           <li><div class="shape-ex2"><a href="./參考資料來源.html">參考資料來源</a></div></li>
         </ul>
         <ul id="floatRight">
-          <li><button class="button rt" type="button" id="btn2" > 點我看一覽 </button></li>
+          <!-- <li><button class="button rt" type="button" id="btn2" > 點我看一覽 </button></li> -->
+          <label for="menu-switcher" class="hamburger" id="btn2">
+            <div class="hamburger-line"></div>
+          
+          </label>
         </ul>
       </div>
       </nav>
@@ -88,7 +109,7 @@
       </center>
   
   </div>
-      <div class="a block">
+      <div class="a block" id="n1">
         <img src="./北部/北部-Out to Gather1.jpg" />
         <img src="./北部/北部-Out to Gather2.jpg" />
         <img src="./北部/北部-啡蒔1.png" />

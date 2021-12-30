@@ -356,3 +356,11 @@ height: 130px;
   float: left;
 display: block;
 }
+
+#photo {
+  width: auto;
+  height: 80px;
+  border: transparent;
+  z-index: 3;
+  /* margin-top: -3.5em; */
+}
