@@ -266,21 +266,20 @@
   color: #ffffff;
 }
 #fb {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border: transparent;
   z-index: 3;
-  margin-top: -3.5em;
 }
 #ig {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border: transparent;
   z-index: 3;
 }
 #pari {
   width: auto;
-  height: 80px;
+  height: 90px;
   border: transparent;
   z-index: 3;
   margin-top: -3.5em;
@@ -306,11 +305,17 @@
 .r7 {
   right: 53rem;
 }
+.r8 {
+  right: 34rem;
+}
 .mg1 {
   margin-top: -3em;
 }
 .mg2 {
   margin-top: -3.5em;
+}
+.mg3 {
+  margin-top: -2.6em;
 }
 
 .circle {
