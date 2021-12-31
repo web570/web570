@@ -29,10 +29,10 @@
     /* //每個項目的顏色。 */
     text-indent:0;
     display:inline-block;
-    font-size: 2.3rem;
+    font-size: 2rem;
      /* //項目的字體大小，若單位不習慣em可自行改為px。 */
     font-style:normal;
-    height:50px;
+    height:47px;
     /* //每個項目的高度。 */
     line-height:40px;
      /* //行高，請跟項目的高度一樣。 */
