@@ -1,226 +1,225 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Noto Serif TC", serif;
-  }
-  nav {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    padding: 19px;
-    top: 0;
-    left: 0;
-    background-color: #f0e1ab;
-  }
-  nav ul {
-    display: flex;
-    padding-left: 1rem;
-    list-style-type: none;
-    font-size: 0.7cm;
-    font-weight: bold;
-    float: left;
-  }
-  nav ul li {
-    display: inline-block;
-    padding-right: 40px;
-    position: relative;
-    overflow: hidden;
-  }
-  nav ul li a {
-    color: inherit;
-    text-decoration: none;
-    padding: 1.7rem 4rem;
-    background: transparent;
-  }
-  
-  .shape {
-    font-family: Noto Serif SC;
-    max-width: auto;
-    vertical-align: middle;
-    position: relative;
-    display: inline-block;
-    position: relative;
-    height: 25px;
-    line-height: 25px;
-    overflow: hidden;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.16em;
-    align-items: center;
-    text-align: center;
-  }
-  .shape-ex2 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    color: #000000;
-    font-family: Noto Serif SC;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.16em;
-    color: #000000;
-  }
-  .shape-ex2 :after {
-    content: "";
-    width: 0%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: all 0.3s linear;
-    border: 0px solid #56876c;
-    transform: rotate(180deg);
-  }
-  .shape-ex2 :hover::after {
-    width: 80%;
-    border: 4px solid #56876c;
-    transform: rotate(180deg);
-  }
-  .shape-ex1 {
-    cursor: pointer;
-    line-height: 300%;
-    color: #56876c;
-    background-color: transparent;
-    border: 2px solid #56876c;
-    box-sizing: border-box;
-    transition: all 0.3s linear;
-    display: block;
-    transition: all 0.3s linear;
-    
-    border-radius: 30px;
-    font-family: Noto Serif SC;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.16em;
-  }
-  .shape-ex1:hover {
-    background: #56876c;
-    border-radius: 30px;
-    color: #fff4cf;
-  }
-  #Sidebar{
-    width:47%;
-    float:right;
-    height: auto;
-    margin: 1.5rem;
-    
-  }
-  #rSidebar{
-    width:47%;
-    float:left;
-    height: auto;
-    margin: 1.5rem;
-    
-  }
-#sr{
-    left: 45rem;
-    height: 100px;
-    width: auto;
-    position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif TC", serif;
 }
-.pd{
-    padding: 1.5rem;
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 19px;
+  top: 0;
+  left: 0;
+  background-color: #f0e1ab;
+}
+nav ul {
+  display: flex;
+  padding-left: 1rem;
+  list-style-type: none;
+  font-size: 0.7cm;
+  font-weight: bold;
+  float: left;
+}
+nav ul li {
+  display: inline-block;
+  padding-right: 40px;
+  position: relative;
+  overflow: hidden;
+}
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+  padding: 1.7rem 4rem;
+  background: transparent;
 }
 
-.nbg{
-    background-color: #EECF65;
-    padding: 1.5rem;
-    border-radius: 30px;
+.shape {
+  font-family: Noto Serif SC;
+  max-width: auto;
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.16em;
+  align-items: center;
+  text-align: center;
 }
-.ntxbg{
-    background-color: #56876C;
-    color:#EECF65 ;
-    padding: 0.05rem;
+.shape-ex2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: #000000;
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.16em;
+  color: #000000;
 }
-.fz{
-    font-size: 3rem;
-    text-align: center;
+.shape-ex2 :after {
+  content: "";
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s linear;
+  border: 0px solid #56876c;
+  transform: rotate(180deg);
 }
-.pfz{
-    font-size: 2.5rem;
-    text-align: center;
-    color:#56876C ;
-    text-decoration:none
+.shape-ex2 :hover::after {
+  width: 80%;
+  border: 4px solid #56876c;
+  transform: rotate(180deg);
 }
-.pfz :hover{
-    background-color: #56876C;
-    color: #EECF65;
-    transition: all 0.3s linear;
+.shape-ex1 {
+  cursor: pointer;
+  line-height: 300%;
+  color: #56876c;
+  background-color: transparent;
+  border: 2px solid #56876c;
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+  display: block;
+  transition: all 0.3s linear;
+
+  border-radius: 30px;
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.16em;
 }
-.mbg{
-    background-color: #D15E50;
-    padding: 1.5rem;
-    border-radius: 30px;
+.shape-ex1:hover {
+  background: #56876c;
+  border-radius: 30px;
+  color: #fff4cf;
 }
-.mtxbg{
-    background-color: #EECF65;
-    color:#D15E50 ;
-    padding: 0.05rem;
+#Sidebar {
+  width: 47%;
+  float: right;
+  height: auto;
+  margin: 1.5rem;
 }
-.mpfz{
-    font-size: 2.5rem;
-    text-align: center;
-    color:#EECF65 ;
-    text-decoration:none
+#rSidebar {
+  width: 47%;
+  float: left;
+  height: auto;
+  margin: 1.5rem;
 }
-.mpfz :hover{
-    background-color: #EECF65;
-    color: #D15E50;
-    transition: all 0.3s linear;
+#sr {
+  left: 45rem;
+  height: 100px;
+  width: auto;
+  position: relative;
 }
-.ebg{
-    margin-top: 1.5rem;
-    background-color: #3C88AC;
-    padding: 1.5rem;
-    border-radius: 30px;
-    
+.pd {
+  padding: 1.5rem;
 }
-.etxbg{
-    background-color: #EECF65;
-    color:#3C88AC ;
-    padding: 0.05rem;
+.pdlr {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
-.epfz{
-    font-size: 2.5rem;
-    text-align: center;
-    color:#EECF65 ;
-    text-decoration:none
+.nbg {
+  background-color: #eecf65;
+  padding: 1.5rem;
+  border-radius: 30px;
 }
-.epfz :hover{
-    background-color: #EECF65;
-    color: #3C88AC;
-    transition: all 0.3s linear;
+.ntxbg {
+  background-color: #56876c;
+  color: #eecf65;
+  padding: 0.05rem;
 }
-.sbg{
-    margin-top: 1.5rem;
-    background-color: #D7A78C;
-    padding: 1.5rem;
-    border-radius: 30px;
+.fz {
+  font-size: 3rem;
+  text-align: center;
 }
-.stxbg{
-    background-color: #3C88AC;
-    color:#FFF4CF ;
-    padding: 0.05rem;
+.pfz {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #56876c;
+  text-decoration: none;
 }
-.spfz{
-    font-size: 2.5rem;
-    text-align: center;
-    color:#3C88AC ;
-    text-decoration:none
+.pfz :hover {
+  background-color: #56876c;
+  color: #eecf65;
+  transition: all 0.3s linear;
 }
-.spfz :hover{
-    background-color: #3C88AC;
-    color: #FFF4CF;
-    transition: all 0.3s linear;
+.mbg {
+  background-color: #d15e50;
+  padding: 1.5rem;
+  border-radius: 30px;
 }
-.mg{
-    margin-top: 2.5rem;
-    width: 110px;
-    height: auto;
+.mtxbg {
+  background-color: #eecf65;
+  color: #d15e50;
+  padding: 0.05rem;
 }
-.txfz{
-    font-size: 4rem;
-    text-align: center;
-    text-shadow: 2px 2px white, -1px -1px #444
-    
+.mpfz {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #eecf65;
+  text-decoration: none;
+}
+.mpfz :hover {
+  background-color: #eecf65;
+  color: #d15e50;
+  transition: all 0.3s linear;
+}
+.ebg {
+  margin-top: 1.5rem;
+  background-color: #3c88ac;
+  padding: 1.5rem;
+  border-radius: 30px;
+}
+.etxbg {
+  background-color: #eecf65;
+  color: #3c88ac;
+  padding: 0.05rem;
+}
+.epfz {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #eecf65;
+  text-decoration: none;
+}
+.epfz :hover {
+  background-color: #eecf65;
+  color: #3c88ac;
+  transition: all 0.3s linear;
+}
+.sbg {
+  margin-top: 1.5rem;
+  background-color: #d7a78c;
+  padding: 1.5rem;
+  border-radius: 30px;
+}
+.stxbg {
+  background-color: #3c88ac;
+  color: #fff4cf;
+  padding: 0.05rem;
+}
+.spfz {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #3c88ac;
+  text-decoration: none;
+}
+.spfz :hover {
+  background-color: #3c88ac;
+  color: #fff4cf;
+  transition: all 0.3s linear;
+}
+.mg {
+  margin-top: 2.5rem;
+  width: 110px;
+  height: auto;
+}
+.txfz {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px white, -1px -1px #444;
 }
