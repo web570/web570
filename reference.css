@@ -111,10 +111,11 @@ nav ul li a {
   margin: 1.5rem;
 }
 #sr {
-  left: 45rem;
+  /* left: 40rem; */
   height: 100px;
   width: auto;
   position: relative;
+  
 }
 .pd {
   padding: 1.5rem;
